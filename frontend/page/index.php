@@ -18,6 +18,8 @@ class page_index extends Page
         if($_GET['code']){
             $this->app->layout->destroy();
             $this->app->template->set('css','atk-default.css');
+            $m['views'] = $m['views']+1;
+            $m->save();
             $this->app->template->setHTML('Layout',$m['code']);
             return;
         }
