@@ -14,6 +14,8 @@ class page_index extends Page
         $m = $this->add('Model_Widget')->tryLoadBy('name_url',$this->app->page);
         if(!$m->loaded())$this->app->redirect('/');
 
+        $this->title = $m['name'];
+
         // showing embed-code
         if($_GET['code']){
             $this->app->layout->destroy();
