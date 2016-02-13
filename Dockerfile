@@ -41,7 +41,7 @@ ADD /frontend/public/.htaccess-distrib /app/frontend/public/.htaccess
 
 # Initialize custom config from volume
 #ADD files/volume-init.sh /volume-init.sh
-#RUN chmod 755 /volume-init.sh
+##RUN chmod 755 /volume-init.sh
 
 # Configure and start apache
 ADD files/vhost.conf /etc/apache2/sites-enabled/000-default.conf
