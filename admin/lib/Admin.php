@@ -5,21 +5,8 @@ class Admin extends App_Admin {
     function init() {
         parent::init();
 
-        $this->api->pathfinder
-            ->addLocation(array(
-                'addons' => array('addons', 'vendor'),
-            ))
-            ->setBasePath($this->pathfinder->base_location->getPath() . '/..')
-        ;
+        $this->dbConnect();
 
-        $this->api->menu->addMenuItem('/', 'Home');
+        $this->api->menu->addItem('Manage Widgets', 'widgets');
     }
 }
-
-
-
-        // For improved compatibility with Older Toolkit. See Documentation.
-        // $this->add('Controller_Compat42')
-        //     ->useOldTemplateTags()
-        //     ->useOldStyle()
-        //     ->useSMLite();

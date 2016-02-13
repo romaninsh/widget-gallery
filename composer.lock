@@ -1,23 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "740054f4f707b977b1bef5a713cd4d4e",
+    "hash": "30adb1793351cefacd38350466f8134e",
+    "content-hash": "061813bcf53356f16fc71c22b83730ae",
     "packages": [
         {
             "name": "atk4/atk4",
-            "version": "4.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atk4/atk4.git",
-                "reference": "9ac0f6c8644323780244b602e06bab3703a97dc0"
+                "reference": "443f110e1f08d81d3785a0f9da18f42da69c297e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atk4/atk4/zipball/9ac0f6c8644323780244b602e06bab3703a97dc0",
-                "reference": "9ac0f6c8644323780244b602e06bab3703a97dc0",
+                "url": "https://api.github.com/repos/atk4/atk4/zipball/443f110e1f08d81d3785a0f9da18f42da69c297e",
+                "reference": "443f110e1f08d81d3785a0f9da18f42da69c297e",
                 "shasum": ""
             },
             "type": "library",
@@ -38,7 +39,7 @@
                 "atk4",
                 "framework"
             ],
-            "time": "2015-03-16 16:27:31"
+            "time": "2016-02-04 18:10:53"
         },
         {
             "name": "educoder/pest",
@@ -86,7 +87,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "atk4/atk4": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
