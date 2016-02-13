@@ -17,6 +17,7 @@ class page_index extends Page
         // showing embed-code
         if($_GET['code']){
             $this->app->layout->destroy();
+            $this->app->template->set('css','atk-default.css');
             $this->app->template->setHTML('Layout',$m['code']);
             return;
         }
