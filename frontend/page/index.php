@@ -8,9 +8,7 @@ class page_index extends Page
         $l->setModel('Widget');
         $l->addHook('formatRow',function($l){
             $l->current_row['url'] = $this->app->url($l->current_row['name_url']);
-
         });
-
     }
     function subPageHandler($n){
         $m = $this->add('Model_Widget')->tryLoadBy('name_url',$this->app->page);
