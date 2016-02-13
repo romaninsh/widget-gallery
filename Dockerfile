@@ -37,12 +37,11 @@ ADD /frontend/public/.htaccess-distrib /app/frontend/public/.htaccess
 #ADD admin/.htaccess-distrib /app/admin/.htaccess
 
 # Use our default config
-ADD config-deploy.php /app/frontend/config.php
-#ADD admin/config-stage.php /app/admin/config.php
+#ADD config-deploy.php /app/frontend/config.php
 
 # Initialize custom config from volume
-ADD files/volume-init.sh /volume-init.sh
-RUN chmod 755 /volume-init.sh
+#ADD files/volume-init.sh /volume-init.sh
+#RUN chmod 755 /volume-init.sh
 
 # Configure and start apache
 ADD files/vhost.conf /etc/apache2/sites-enabled/000-default.conf
