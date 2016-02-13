@@ -44,8 +44,8 @@ ADD /frontend/public/.htaccess-distrib /app/frontend/public/.htaccess
 ##RUN chmod 755 /volume-init.sh
 
 # Configure and start apache
-ADD files/vhost.conf /etc/apache2/sites-enabled/000-default.conf
 ADD files/run.sh /run.sh
+ADD files/vhost.conf /etc/apache2/sites-enabled/000-default.conf
 ADD files/live.sh /live.sh
 
 #RUN mkdir -p /app/upload /app/admin/upload
