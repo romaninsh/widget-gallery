@@ -5,6 +5,7 @@ class Frontend extends ApiFrontend {
 
         $this->add('Layout_Widgets');
         $this->dbConnect();
+        $this->add('jUI');
 
         $this->template->set('css','widgets.css');
 

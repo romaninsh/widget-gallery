@@ -1,0 +1,17 @@
+
+<div class="atk-layout">
+  <div class="atk-layoutRow atk-layoutExpand">
+    <div class="atk-layout atk-layoutCell">
+      <main class="atk-layoutColumn atk-layoutExpand atk-align-middle">
+        <header id="toolbar" class="atk-padding--xs atk-text-caps-semibold-baseline--single atk-comment"><a href="{page}/{/}" class="atk-cells-spacing--xs atk-move-left"><span class="atk-cell"><span class="icon-angle-left atk-text-size--l"></span></span><span class="atk-cell"><span class="atk-text-size--xs">Widget Gallery</span></span></a><a id="inspector-trigger" href="javascript:void(0)" class="atk-cells-spacing--xs atk-move-right"><span class="atk-cell"><span class="atk-text-size--xs">Show Code</span></span><span class="atk-cell"><span class="icon-code atk-text-size--l"></span></span></a></header>
+        <iframe src="{$iframe_url}" width="100%" height="100%" frameborder="0" class="atk-text-font--clear"></iframe>
+      </main>
+      <aside id="inspector" class="atk-layoutColumn">
+        <div id="inspector-inner" class="atk-border-left-overlay atk-swatch-ink">
+          <header class="atk-text-caps-size--xs-semibold atk-border-bottom-disabled atk-align-center atk-padding--xs"><a id="inspector-hide" href="javascript:void(0)" class="atk-text-size--l icon-cancel"></a>HTML Code</header>
+          <pre><code class="html">{$Code}</code></pre>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
