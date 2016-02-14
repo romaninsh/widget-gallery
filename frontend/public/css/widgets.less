@@ -31,59 +31,49 @@
 .createSmartSwatch(
     @sName:            default,
     @sFill:            #fff,
-    @sHeading:         #363842,
-    @sText:            #363842,
-    @sLink:            #45b8f3,
-    @sBorderIntensity: 5%,
-    @sCustomStyles:    {
-        #inspector {
-            &:before {
-                background: @sFill;
-            }
-        }
-    }
+    @sHeading:         @swatchGray-30,
+    @sText:            @swatchGray-30,
+    @sLink:            @swatchBlue,
+    @sComment:         @swatchGray-75,
+    @sBorderIntensity: 5%
 );
 .createSmartSwatch(
     @sName:            ink,
-    @sFill:            #1c2933,
-    @sText:            #acadb4,
-    @sLink:            #acadb4,
-    @sCustomStyles:    {
-        header {
-            background-color: lighten(@sFill, 2%);
-        }
-    }
+    @sFill:            @swatchGray-30,
+    @sText:            @swatchGray-85,
+    @sLink:            @swatchGray-60,
+    @sLinkHover:       darken(@swatchGray-60, 5%)
 );
 .createSmartSwatch(
     @sName:            red,
-    @sFill:            #fb635b,
-    @sBorder:          #fb635b
+    @sFill:            @swatchRed,
+    @sBorder:          @swatchRed
 );
 .createSmartSwatch(
     @sName:            orange,
-    @sFill:            #f7a632,
-    @sBorder:          #f7a632
+    @sFill:            @swatchOrange,
+    @sBorder:          @swatchOrange
 );
 .createSmartSwatch(
     @sName:            yellow,
-    @sFill:            #f4ce31,
-    @sBorder:          #f4ce31,
+    @sFill:            @swatchYellow,
+    @sBorder:          @swatchYellow,
     @sSwatchSensitivity: 65%
 );
 .createSmartSwatch(
     @sName:            green,
-    @sFill:            #6ccb4e,
-    @sBorder:          #6ccb4e
+    @sFill:            @swatchGreen,
+    @sBorder:          @swatchGreen
 );
 .createSmartSwatch(
     @sName:            blue,
-    @sFill:            #45b8f3,
-    @sBorder:          #45b8f3
+    @sFill:            @swatchBlue,
+    @sBorder:          @swatchBlue
 );
 .createSmartSwatch(
     @sName:            violet,
-    @sFill:            #d089e1,
-    @sBorder:          #d089e1
+    @sFill:            @swatchViolet,
+    @sBorder:          @swatchViolet
 );
 
 
@@ -93,32 +83,62 @@
 
 @bodyBackground:       #fff;
 @cornerRadius:         5px;
-@textSelect:           #000; // Text selection's color
-@dialogOverlay:        fade(#000, 25%); // Color of modal dialog's overlay
-@tooltipColor:         fade(#000, 90%);
+@textSelect:           #1f2a32;
+@dialogOverlay:        fade(#1f2a32, 25%);
+@tooltipColor:         fade(#1f2a32, 90%);
 @popoverArrow:         12px;
 @buttonPadding:        0.5em;
 @buttonPaddingRatio:   2;
 @spaceRatio:           1.5;
 
-@effectSuccess:        #25c425;
-@effectWarning:        #f7a600;
-@effectDanger:         #ff2d1a;
-@effectInfo:           #2bacd7;
+@effectSuccess:        #6ccb4e;
+@effectWarning:        #f8a633;
+@effectDanger:         #fa635a;
+@effectInfo:           #45b8f3;
 
 @inputColor:           #fff;
-@inputText:            #000;
-@inputFocus:           #0095ff;
+@inputText:            #172128;
+@inputFocus:           #45b8f3;
 @inputFocusGlow:       3px;
 @inputPadding:         0.5em;
 @inputPaddingRatio:    3;
-@inputPlaceholder:     lighten(#000, 40%);
+@inputPlaceholder:     lighten(#172128, 40%);
 @inputInnerShadow:     0 3px 0 rgba(0, 0, 0, 0.03) inset;
 
 
 // ==========================================================
 // Custom
 // ==========================================================
+
+@swatchGray-25:     #172128;
+@swatchGray-30:     #1f2a32;
+@swatchGray-35:     #28333c;
+@swatchGray-40:     #323e48;
+
+@swatchGray-45:     #3d4a54;
+@swatchGray-50:     #4a5660;
+@swatchGray-55:     #56636d;
+@swatchGray-60:     #65717b;
+
+@swatchGray-65:     #758089;
+@swatchGray-70:     #869099;
+@swatchGray-75:     #96a0a7;
+@swatchGray-80:     #a9b1b8;
+
+@swatchGray-85:     #bec4c9;
+@swatchGray-90:     #d2d7db;
+@swatchGray-95:     #e8eaec;
+@swatchGray-97:     #f0f2f3;
+
+@swatchRed:         #fa635a;
+@swatchOrange:      #f8a633;
+@swatchYellow:      #f4cf32;
+@swatchGreen:       #6ccb4e;
+
+@swatchTeal:        #47ccb6;
+@swatchBlue:        #509de6;
+@swatchViolet:      #7573d9;
+@swatchPink:        #c777d9;
 
 main {
     position: relative;
@@ -149,6 +169,7 @@ main {
         width: @inspectorWidth;
     }
     header {
+        background: @swatchGray-35;
         position: relative;
         #inspector-hide {
             .position(@t:50%,@l:@space-xs);
@@ -156,6 +177,7 @@ main {
         }
     }
     pre {
+        .text-size--xs;
         margin: 0;
         overflow: auto;
         code.hljs {
@@ -185,7 +207,7 @@ main {
     }
 }
 .separator {
-    color: #d4d5d8;
+    color: #d2d7db;
     font-weight: 300;
     padding: 0 @space-s;
 }
