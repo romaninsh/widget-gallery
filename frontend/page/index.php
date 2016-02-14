@@ -37,16 +37,15 @@ class page_index extends Page
         $l->template->set('Code',$m['code']);
 
         //$this->app->jui->addStaticInclude('https://cdn.jsdelivr.net/ace/1.2.3/min/ace.js');
-        $this->app->jui->addStaticInclude('ace/ace');
+        // $this->app->jui->addStaticInclude('ace/ace');
 
-        /*
         $this->app->jui->addStaticStylesheet('codemirror');
         $this->app->jui->addStaticStylesheet('codemirror/theme/night');
         $this->app->jui->addStaticInclude('codemirror');
         $this->app->jui->addStaticInclude('codemirror/javascript/javascript');
         $this->app->jui->addStaticInclude('codemirror/xml/xml');
-        */
 
+        /*
         $l->js(true, '
         var editor = ace.edit("code");
         document.ace = editor;
@@ -64,8 +63,9 @@ class page_index extends Page
 
 
         ');
+        */
 
-        /*
+
         $l->js(true, "document.cm = CodeMirror.fromTextArea($('#code')[0], { lineNumbers: true, ".
             "mode: 'text/html', lineWrapping: true, readOnly: true, theme: 'night', htmlMode: true});
 
@@ -79,7 +79,6 @@ class page_index extends Page
       document.cm.refresh();
 
             ");
-            */
 
         $this->app->jui->addStaticInclude('highlight.pack');
         $this->app->jui->addStaticInclude('widgets');
