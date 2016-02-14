@@ -24,7 +24,7 @@ class Model_Widget extends SQL_Model {
 
         $v->on('beforeSave');
 
-        $this->setOrder('date');
+        $this->setOrder('date desc');
 
 
         $this->add('dynamic_model/Controller_AutoCreator_MySQL');
