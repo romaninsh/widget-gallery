@@ -44,7 +44,7 @@ class page_index extends Page
 
 
         $l->js(true, "document.cm = CodeMirror.fromTextArea($('#code')[0], { lineNumbers: true, ".
-            "mode: 'text/html', lineWrapping: true, theme: 'night', htmlMode: true});
+            "mode: 'text/html', lineWrapping: true, readOnly: true, theme: 'night', htmlMode: true});
 
       var charWidth = document.cm.defaultCharWidth(), basePadding = 4;
       document.cm.on('renderLine', function(cm, line, elt) {
