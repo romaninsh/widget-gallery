@@ -3,7 +3,7 @@ function resizeUpdate() {
 	var inspectorHeaderHeight = $('#inspector header').outerHeight();
 	var inspectorHeight = windowHeight-inspectorHeaderHeight;
 
-	$('#inspector pre').height(inspectorHeight);
+	$('#inspector .CodeMirror').height(inspectorHeight);
 }
 
 $(function(){
