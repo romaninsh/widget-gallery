@@ -2498,22 +2498,22 @@ a {
 .hljs-quote,
 .hljs-template-tag,
 .hljs-deletion {
-  color: #45b8f3;
+  color: #509de6;
 }
 .hljs-title,
 .hljs-section {
-  color: #4cd964;
+  color: #6ccb4e;
 }
 .hljs-comment,
 .hljs-meta {
-  color: #5b5d67;
+  color: #56636d;
 }
 .hljs-emphasis {
   font-style: italic;
-  color: #4cd964;
+  color: #6ccb4e;
 }
 .hljs-strong {
-  color: #52575a;
+  color: #4a5660;
 }
 @font-face {
   font-family: 'fontello';
