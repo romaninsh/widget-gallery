@@ -3,7 +3,7 @@ define("ace/theme/widget",["require","exports","module","ace/lib/dom"], function
 exports.isDark = true;
 exports.cssClass = "ace-widget";
 exports.cssText = ".ace-widget .ace_gutter {\
-background: #25282c;\
+background: #F5282c;\
 color: #C5C8C6\
 }\
 .ace-widget .ace_print-margin {\
@@ -11,7 +11,7 @@ width: 1px;\
 background: #25282c\
 }\
 .ace-widget {\
-background-color: #1D1F21;\
+background-color: #FD1F21;\
 color: #C5C8C6\
 }\
 .ace-widget .ace_cursor {\
