@@ -19,6 +19,7 @@
           header.atk-text-caps-size--xs-semibold.atk-border-bottom-disabled.atk-align-center.atk-padding--xs
             a#inspector-hide.atk-text-size--l.icon-cancel(href="javascript:void(0)")
             | HTML Code
-          pre
+          textarea(id="code") {$Code}
+          // pre
             code.html
                 | {$Code}

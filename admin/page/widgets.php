@@ -19,6 +19,7 @@ class page_widgets extends Page {
         $this->addCrumbReverse('Edit Code');
 
         $this->app->jui->addStaticStylesheet('codemirror');
+        $this->app->jui->addStaticStylesheet('codemirror/theme/night');
         $this->app->jui->addStaticInclude('codemirror');
         $this->app->jui->addStaticInclude('codemirror/javascript/javascript');
         $this->app->jui->addStaticInclude('codemirror/xml/xml');
@@ -38,7 +39,19 @@ class page_widgets extends Page {
         $f->addButton('Cancel')->link('..');
 
 
-        $this->js(true, "document.cm = CodeMirror.fromTextArea($('textarea')[0], { lineNumbers: true, mode: 'xml', htmlMode: true});");
+        $this->js(true, "document.cm = CodeMirror.fromTextArea($('textarea')[0], { lineNumbers: true, ".
+            "mode: 'text/html', lineWrapping: true, theme: 'night', htmlMode: true});
+
+      var charWidth = document.cm.defaultCharWidth(), basePadding = 4;
+      document.cm.on('renderLine', function(cm, line, elt) {
+        var off = CodeMirror.countColumn(line.text, null, cm.getOption('tabSize')) * charWidth;
+        elt.style.textIndent = '-' + off + 'px';
+        elt.style.paddingLeft = (basePadding + off) + 'px';
+        console.log(off);
+      });
+      document.cm.refresh();
+
+            ");
 
 
 
