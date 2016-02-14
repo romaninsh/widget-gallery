@@ -14,6 +14,10 @@ class Model_Widget extends SQL_Model {
 
         $this->addField('date')->type('date');
         $this->addField('color');
+
+        $this->addField('add_default_layout')->type('boolean')->system(true)
+            ->hint('Will wrap in .atk-layout>.atk-layoutRow>.atk-layoutCell>atk-layoutColumn>.atk-wrapper');
+            
         $this->addField('code')->type('text')->system(true);
 
         $this->addField('views')->defaultValue(0)->editable(false);

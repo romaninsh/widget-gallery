@@ -22,7 +22,12 @@ class page_index extends Page
             $this->app->template->set('css','atk-default.css');
             $m['views'] = $m['views']+1;
             $m->save();
-            $this->app->template->setHTML('Layout',$m['code']);
+            if($m['add_default_layout']){
+                $this->app->add('View',null,'Layout',['layout/wrapper'])
+                    ->template->setHTML('Content',$m['code']);
+            }else{
+                $this->app->template->setHTML('Layout',$m['code']);
+            }
             return;
         }
 

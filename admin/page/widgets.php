@@ -23,10 +23,11 @@ class page_widgets extends Page {
         $this->app->jui->addStaticInclude('codemirror/javascript/javascript');
         $this->app->jui->addStaticInclude('codemirror/xml/xml');
 
+        $this->model->getElement('add_default_layout')->editable(true);
         $this->model->getElement('code')->editable(true);
 
         $f = $this->add('Form',null,null,['form/stacked']);
-        $f->setModel($this->model,['code']);
+        $f->setModel($this->model,['add_default_layout','code']);
         $f->addButton('Save')->addClass('atk-swatch-green')
             ->js('click',['document.cm.save();',$f->js()->submit()]);
         $f->onSubmit(function($f){
