@@ -36,7 +36,8 @@ class page_index extends Page
         $l->template->set('iframe_url',$this->app->url(null,['code'=>true]));
         $l->template->set('Code',$m['code']);
 
-        $this->app->jui->addStaticInclude('https://cdn.jsdelivr.net/ace/1.2.3/min/ace.js');
+        //$this->app->jui->addStaticInclude('https://cdn.jsdelivr.net/ace/1.2.3/min/ace.js');
+        $this->app->jui->addStaticInclude('ace/ace');
 
         /*
         $this->app->jui->addStaticStylesheet('codemirror');
@@ -48,7 +49,7 @@ class page_index extends Page
 
         $l->js(true, '
         var editor = ace.edit("code");
-    editor.setTheme("ace/theme/monokai");
+    editor.setTheme("ace/theme/widget");
     editor.getSession().setMode("ace/mode/html");
     editor.setOptions({
         readOnly: true,
