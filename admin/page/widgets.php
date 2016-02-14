@@ -19,7 +19,7 @@ class page_widgets extends Page {
         $this->addCrumbReverse('Edit Code');
 
         $this->app->jui->addStaticStylesheet('codemirror');
-        $this->app->jui->addStaticStylesheet('codemirror/theme/night');
+        //$this->app->jui->addStaticStylesheet('codemirror/theme/night');
         $this->app->jui->addStaticInclude('codemirror');
         $this->app->jui->addStaticInclude('codemirror/javascript/javascript');
         $this->app->jui->addStaticInclude('codemirror/xml/xml');
