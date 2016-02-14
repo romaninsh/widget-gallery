@@ -10,6 +10,7 @@ class Model_Widget extends SQL_Model {
         $this->addField('name');
 
         $this->addField('name_url')->caption('Slug');
+        $this->addFiled('tags');
 
         $this->addField('date')->type('date');
         $this->addField('color');
