@@ -8,7 +8,6 @@ function resizeUpdate() {
 
 $(function(){
 	resizeUpdate();
-	hljs.initHighlightingOnLoad();
 	$('#inspector-trigger').click(function(){
 		$('#inspector').addClass('expanded');
 		$(this).addClass('hidden');
