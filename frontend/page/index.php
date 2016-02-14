@@ -49,6 +49,7 @@ class page_index extends Page
 
         $l->js(true, '
         var editor = ace.edit("code");
+        document.ace = editor;
     editor.setTheme("ace/theme/widget");
     editor.getSession().setMode("ace/mode/html");
     editor.setOptions({
