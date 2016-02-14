@@ -2456,65 +2456,6 @@ a {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-.hljs {
-  display: block;
-  overflow-x: auto;
-}
-.hljs,
-.hljs-subst {
-  color: #e8eaec;
-}
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-meta-keyword,
-.hljs-doctag,
-.hljs-attribute,
-.hljs-name {
-  color: #e8eaec;
-}
-.hljs-built_in,
-.hljs-literal,
-.hljs-bullet,
-.hljs-code,
-.hljs-addition {
-  color: #e8eaec;
-}
-.hljs-regexp,
-.hljs-symbol,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-link,
-.hljs-selector-pseudo {
-  color: #56636d;
-}
-.hljs-attr {
-  color: #869099;
-}
-.hljs-type,
-.hljs-string,
-.hljs-number,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-quote,
-.hljs-template-tag,
-.hljs-deletion {
-  color: #509de6;
-}
-.hljs-title,
-.hljs-section {
-  color: #6ccb4e;
-}
-.hljs-comment,
-.hljs-meta {
-  color: #56636d;
-}
-.hljs-emphasis {
-  font-style: italic;
-  color: #6ccb4e;
-}
-.hljs-strong {
-  color: #4a5660;
-}
 @font-face {
   font-family: 'fontello';
   src: url('../font/fontello.eot?83237899');
@@ -6012,6 +5953,7 @@ main iframe {
   font-size: 0.68788968rem;
   margin: 0;
   overflow: auto;
+  width: 480px;
 }
 #inspector pre code.hljs {
   background: none;
