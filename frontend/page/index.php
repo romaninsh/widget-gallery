@@ -11,13 +11,21 @@ class page_index extends Page
         });
     }
     function subPageHandler($n){
-        $m = $this->add('Model_Widget')->tryLoadBy('name_url',$this->app->page);
-        if(!$m->loaded())$this->app->redirect('/');
+
+
+        $snippet = $this->app->page;
+
+        if(preg_match('/(.*)_embed$/',$this->app->page,$m)){
+            $embed = true;
+            $snippet = $m[1];
+        }else $embed = false;
+        $m = $this->add('Model_Widget')->tryLoadBy('name_url',$snippet);
+        //if(!$m->loaded())$this->app->redirect('/');
 
         $this->title = $m['name'];
 
         // showing embed-code
-        if($_GET['code']){
+        if($embed){
             $this->app->layout->destroy();
             $this->app->template->set('css','atk-default.css');
             $m['views'] = $m['views']+1;
@@ -33,7 +41,7 @@ class page_index extends Page
 
         $this->app->layout->destroy();
         $l = $this->app->add('Layout_Basic',null,null,['layout/single']);
-        $l->template->set('iframe_url',$this->app->url(null,['code'=>true]));
+        $l->template->set('iframe_url',$this->app->url('./embed'));
         $l->template->set('Code',$m['code']);
 
         $this->app->jui->addStaticStylesheet('codemirror/codemirror');
