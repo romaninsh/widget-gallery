@@ -5958,7 +5958,7 @@ main iframe {
   width: 480px;
 }
 .widget-box {
-  height: 250px;
+  height: 260px;
   position: relative;
 }
 .widget-box a {
@@ -6055,7 +6055,7 @@ main iframe {
 }
 @media screen and (min-width: 0px) and (max-width: 1199px) {
   .widget-box {
-    height: 215px;
+    height: 220px;
   }
   .widget-box a {
     background-position: center -5px;
