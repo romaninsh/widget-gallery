@@ -1,7 +1,7 @@
 .atk-row.atk-grid-spacing--xs(id="{$_name}")
     | {rows}{row}
     .atk-col-4.widget-box
-      a.atk-padding--xs.atk-swatch-red.atk-box(href="{$url}" class="atk-swatch-{$color}")
+      a.atk-padding--xs.atk-swatch-red.atk-box(href="{$url}" class="atk-swatch-{$color}" style="background-image:url(images/{$picture});")
         figure
           span.atk-block.atk-caps.atk-text-semibold {$name}
           span.atk-comment {$views} views
