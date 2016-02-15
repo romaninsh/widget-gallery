@@ -2235,19 +2235,19 @@ textarea:not([class*="atk-padding--"]):not([class*="atk-padding "])[class*="-spa
 }
 input:not([type=submit]):not([type=button]):not([type=radio]):not([type=file]):not([type=checkbox])::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #658ba6;
+  color: #b3b3b3;
 }
 input:not([type=submit]):not([type=button]):not([type=radio]):not([type=file]):not([type=checkbox]):-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #658ba6;
+  color: #b3b3b3;
 }
 input:not([type=submit]):not([type=button]):not([type=radio]):not([type=file]):not([type=checkbox])::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #658ba6;
+  color: #b3b3b3;
 }
 input:not([type=submit]):not([type=button]):not([type=radio]):not([type=file]):not([type=checkbox]):-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #658ba6;
+  color: #b3b3b3;
 }
 input:not([type=submit]):not([type=button]):not([type=radio]):not([type=file]):not([type=checkbox]):not([class*="atk-text"][class*="size"]),
 textarea:not([class*="atk-text"][class*="size"]) {
