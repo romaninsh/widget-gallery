@@ -6054,6 +6054,9 @@ main iframe {
   }
 }
 @media screen and (min-width: 0px) and (max-width: 1199px) {
+  .widget-box {
+    height: 215px;
+  }
   .atk-layout > .atk-layoutRow > .atk-layoutCell {
     min-width: 100%;
   }
