@@ -4,6 +4,7 @@ function resizeUpdate() {
 	var inspectorHeight = windowHeight-inspectorHeaderHeight;
 
 	$('#inspector .CodeMirror').height(inspectorHeight);
+	$('main iframe').height(windowHeight);
 }
 
 $(function(){
