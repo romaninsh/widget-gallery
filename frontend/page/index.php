@@ -36,40 +36,16 @@ class page_index extends Page
         $l->template->set('iframe_url',$this->app->url(null,['code'=>true]));
         $l->template->set('Code',$m['code']);
 
-        //$this->app->jui->addStaticInclude('https://cdn.jsdelivr.net/ace/1.2.3/min/ace.js');
-        // $this->app->jui->addStaticInclude('ace/ace');
-
-        $this->app->jui->addStaticStylesheet('codemirror');
-        $this->app->jui->addStaticStylesheet('codemirror/theme/night');
+        $this->app->jui->addStaticStylesheet('codemirror/codemirror');
+        $this->app->jui->addStaticStylesheet('codemirror/theme-atk');
         $this->app->jui->addStaticInclude('codemirror');
         $this->app->jui->addStaticInclude('codemirror/javascript/javascript');
         $this->app->jui->addStaticInclude('codemirror/xml/xml');
 
-        /*
-        $l->js(true, '
-        var editor = ace.edit("code");
-        document.ace = editor;
-    editor.setTheme("ace/theme/widget");
-    editor.getSession().setMode("ace/mode/html");
-    editor.setOptions({
-        readOnly: true,
-        highlightActiveLine: false,
-        highlightGutterLine: false
-    })
-    editor.renderer.$cursorLayer.element.style.opacity=0
-    editor.getSession().setUseWorker(false);
-    editor.getSession().setUseWrapMode(true);
-    editor.resize()
+        $l->js(true, "document.cm = CodeMirror.fromTextArea($('#code')[0], { lineNumbers: false, ".
+            "mode: 'text/html', lineWrapping: true, readOnly: true, theme: 'atk', htmlMode: true});
 
-
-        ');
-        */
-
-
-        $l->js(true, "document.cm = CodeMirror.fromTextArea($('#code')[0], { lineNumbers: true, ".
-            "mode: 'text/html', lineWrapping: true, readOnly: true, theme: 'night', htmlMode: true});
-
-      var charWidth = document.cm.defaultCharWidth(), basePadding = 4;
+      var charWidth = document.cm.defaultCharWidth(), basePadding = 15;
       document.cm.on('renderLine', function(cm, line, elt) {
         var off = CodeMirror.countColumn(line.text, null, cm.getOption('tabSize')) * charWidth;
         elt.style.textIndent = '-' + off + 'px';

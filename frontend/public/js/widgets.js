@@ -13,7 +13,6 @@ $(function(){
 		$(this).addClass('hidden');
         resizeUpdate();
         document.cm.refresh();
-        //document.ace.renderer.updateFull();
 	});
 	$('#inspector-hide').click(function(){
 		$(this).parents('#inspector').removeClass('expanded');
