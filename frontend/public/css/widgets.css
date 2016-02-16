@@ -5951,6 +5951,7 @@ main iframe {
 }
 #inspector .CodeMirror {
   font-size: 0.68788968rem;
+  height: 100%;
   width: 480px;
 }
 #inspector.expanded {
