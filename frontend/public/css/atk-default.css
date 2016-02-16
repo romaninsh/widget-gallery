@@ -4268,247 +4268,146 @@ button[class*="atk-button"]:hover,
 a[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
   background-color: #f5f5f5;
 }
-.ui-datepicker.ui-widget-content {
-  border-color: #bfbfbf;
-}
-.ui-datepicker .ui-datepicker-header {
-  color: #1f2a32;
-}
-.ui-datepicker table.ui-datepicker-calendar tr a,
-.ui-datepicker table.ui-datepicker-calendar tr a:hover {
-  color: #1f2a32;
-}
-.ui-selectmenu-menu .ui-menu {
-  border: 1px solid #bfbfbf;
+[class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
+  background-color: #fafafa;
 }
 body,
 .atk-swatch-default,
 [class*="atk-swatch"] .atk-swatch-default {
   color: #1f2a32;
 }
-body h1,
+ h1,
 .atk-swatch-default h1,
 [class*="atk-swatch"] .atk-swatch-default h1,
-body h2,
+ h2,
 .atk-swatch-default h2,
 [class*="atk-swatch"] .atk-swatch-default h2,
-body h3,
+ h3,
 .atk-swatch-default h3,
 [class*="atk-swatch"] .atk-swatch-default h3,
-body h4,
+ h4,
 .atk-swatch-default h4,
 [class*="atk-swatch"] .atk-swatch-default h4,
-body h5,
+ h5,
 .atk-swatch-default h5,
 [class*="atk-swatch"] .atk-swatch-default h5,
-body h6,
+ h6,
 .atk-swatch-default h6,
 [class*="atk-swatch"] .atk-swatch-default h6 {
   color: #1f2a32;
 }
-body .atk-comment,
+ .atk-comment,
 .atk-swatch-default .atk-comment,
 [class*="atk-swatch"] .atk-swatch-default .atk-comment,
-body a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]),
+ a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]),
 .atk-swatch-default a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]),
 [class*="atk-swatch"] .atk-swatch-default a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]),
-body .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]),
+ .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]),
 .atk-swatch-default .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]),
 [class*="atk-swatch"] .atk-swatch-default .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]) {
   color: rgba(0, 0, 0, 0.5);
 }
-body a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
+ a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
 .atk-swatch-default a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
 [class*="atk-swatch"] .atk-swatch-default a.atk-comment:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
-body .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
+ .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
 .atk-swatch-default .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
 [class*="atk-swatch"] .atk-swatch-default .atk-comment a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover {
   color: rgba(0, 0, 0, 0.6);
 }
-body a:not([class*="atk-button"]):not([class*="atk-swatch"]),
+ a:not([class*="atk-button"]):not([class*="atk-swatch"]),
 .atk-swatch-default a:not([class*="atk-button"]):not([class*="atk-swatch"]),
 [class*="atk-swatch"] .atk-swatch-default a:not([class*="atk-button"]):not([class*="atk-swatch"]),
-abody:not([class*="atk-button"]),
+a:not([class*="atk-button"]),
 a.atk-swatch-default:not([class*="atk-button"]),
 a[class*="atk-swatch"] .atk-swatch-default:not([class*="atk-button"]) {
   color: #509de6;
 }
-body a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
+ a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
 .atk-swatch-default a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
 [class*="atk-swatch"] .atk-swatch-default a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
-abody:not([class*="atk-button"]):hover,
+a:not([class*="atk-button"]):hover,
 a.atk-swatch-default:not([class*="atk-button"]):hover,
 a[class*="atk-swatch"] .atk-swatch-default:not([class*="atk-button"]):hover {
   color: #1d74c8;
 }
-body [class*="atk-border"][class*="-static"],
+ [class*="atk-border"][class*="-static"],
 .atk-swatch-default [class*="atk-border"][class*="-static"],
 [class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-static"],
-body[class*="atk-border"][class*="-static"],
+[class*="atk-border"][class*="-static"],
 .atk-swatch-default[class*="atk-border"][class*="-static"],
 [class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-static"],
-body hr,
+ hr,
 .atk-swatch-default hr,
 [class*="atk-swatch"] .atk-swatch-default hr,
-body[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
 .atk-swatch-default[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before {
-  border-color: #e6e6e6;
-}
-body [class*="atk-border"][class*="-disabled"],
-.atk-swatch-default [class*="atk-border"][class*="-disabled"],
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-disabled"],
-body[class*="atk-border"][class*="-disabled"],
-.atk-swatch-default[class*="atk-border"][class*="-disabled"],
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-disabled"],
-body [class*="atk-lister"] > *:not([class*="atk-border"]),
-.atk-swatch-default [class*="atk-lister"] > *:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-lister"] > *:not([class*="atk-border"]),
-body [class*="atk-table"][class*="-separated"] tbody > tr > td,
-.atk-swatch-default [class*="atk-table"][class*="-separated"] tbody > tr > td,
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-table"][class*="-separated"] tbody > tr > td,
-body [class*="atk-table"][class*="-separated"] thead > tr > th,
-.atk-swatch-default [class*="atk-table"][class*="-separated"] thead > tr > th,
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-table"][class*="-separated"] thead > tr > th,
-body hr[class*="-disabled"],
-.atk-swatch-default hr[class*="-disabled"],
-[class*="atk-swatch"] .atk-swatch-default hr[class*="-disabled"],
-body[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
-.atk-swatch-default[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before {
-  border-color: #f2f2f2;
-}
-body [class*="atk-border"][class*="-active"],
-.atk-swatch-default [class*="atk-border"][class*="-active"],
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-active"],
-body[class*="atk-border"][class*="-active"],
-.atk-swatch-default[class*="atk-border"][class*="-active"],
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-active"],
-body hr[class*="atk-border"][class*="-active"],
-.atk-swatch-default hr[class*="atk-border"][class*="-active"],
-[class*="atk-swatch"] .atk-swatch-default hr[class*="atk-border"][class*="-active"],
-body[class*="atk-border"][class*="-active"][class*="atk-popover"] .atk-popoverArrow:before,
-.atk-swatch-default[class*="atk-border"][class*="-active"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-active"][class*="atk-popover"] .atk-popoverArrow:before,
-body input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]),
-.atk-swatch-default input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]),
-[class*="atk-swatch"] .atk-swatch-default input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]),
-body textarea,
-.atk-swatch-default textarea,
-[class*="atk-swatch"] .atk-swatch-default textarea {
-  border-color: #cccccc;
-}
-body [class*="atk-border"][class*="-overlay"],
-.atk-swatch-default [class*="atk-border"][class*="-overlay"],
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-overlay"],
-body[class*="atk-border"][class*="-overlay"],
-.atk-swatch-default[class*="atk-border"][class*="-overlay"],
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-overlay"],
-body hr[class*="atk-border"][class*="-overlay"],
-.atk-swatch-default hr[class*="atk-border"][class*="-overlay"],
-[class*="atk-swatch"] .atk-swatch-default hr[class*="atk-border"][class*="-overlay"],
-body[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before,
-.atk-swatch-default[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before {
-  border-color: #bfbfbf;
-}
-body [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]),
-.atk-swatch-default [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]),
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
-  background-color: #fafafa;
-}
-body [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-.atk-swatch-default [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-default [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-body[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
 .atk-swatch-default[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
 [class*="atk-swatch"] .atk-swatch-default[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
   border-color: #e6e6e6;
 }
-body .ui-widget,
-.atk-swatch-default .ui-widget,
-[class*="atk-swatch"] .atk-swatch-default .ui-widget {
-  color: #1f2a32;
+ [class*="atk-border"][class*="-disabled"],
+.atk-swatch-default [class*="atk-border"][class*="-disabled"],
+[class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-disabled"],
+[class*="atk-border"][class*="-disabled"],
+.atk-swatch-default[class*="atk-border"][class*="-disabled"],
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-disabled"],
+ hr[class*="atk-border"][class*="-disabled"],
+.atk-swatch-default hr[class*="atk-border"][class*="-disabled"],
+[class*="atk-swatch"] .atk-swatch-default hr[class*="atk-border"][class*="-disabled"],
+[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
+.atk-swatch-default[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
+ [class*="atk-lister"] > *:not([class*="atk-border"]),
+.atk-swatch-default [class*="atk-lister"] > *:not([class*="atk-border"]),
+[class*="atk-swatch"] .atk-swatch-default [class*="atk-lister"] > *:not([class*="atk-border"]),
+ [class*="atk-table"][class*="-separated"] tbody > tr > td,
+.atk-swatch-default [class*="atk-table"][class*="-separated"] tbody > tr > td,
+[class*="atk-swatch"] .atk-swatch-default [class*="atk-table"][class*="-separated"] tbody > tr > td,
+ [class*="atk-table"][class*="-separated"] thead > tr > th,
+.atk-swatch-default [class*="atk-table"][class*="-separated"] thead > tr > th,
+[class*="atk-swatch"] .atk-swatch-default [class*="atk-table"][class*="-separated"] thead > tr > th {
+  border-color: #f2f2f2;
 }
-body .ui-widget-hover.ui-state-hover,
-.atk-swatch-default .ui-widget-hover.ui-state-hover,
-[class*="atk-swatch"] .atk-swatch-default .ui-widget-hover.ui-state-hover {
-  background-color: #f5f5f5;
+ [class*="atk-border"][class*="-active"],
+.atk-swatch-default [class*="atk-border"][class*="-active"],
+[class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-active"],
+[class*="atk-border"][class*="-active"],
+.atk-swatch-default[class*="atk-border"][class*="-active"],
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-active"],
+ hr[class*="atk-border"][class*="-active"],
+.atk-swatch-default hr[class*="atk-border"][class*="-active"],
+[class*="atk-swatch"] .atk-swatch-default hr[class*="atk-border"][class*="-active"],
+[class*="atk-border"][class*="-active"][class*="atk-popover"] .atk-popoverArrow:before,
+.atk-swatch-default[class*="atk-border"][class*="-active"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-active"][class*="atk-popover"] .atk-popoverArrow:before,
+ input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]),
+.atk-swatch-default input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]),
+[class*="atk-swatch"] .atk-swatch-default input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]),
+ textarea,
+.atk-swatch-default textarea,
+[class*="atk-swatch"] .atk-swatch-default textarea {
+  border-color: #cccccc;
 }
-body .ui-widget-content,
-.atk-swatch-default .ui-widget-content,
-[class*="atk-swatch"] .atk-swatch-default .ui-widget-content {
-  background-color: #fff;
-  border-color: #e6e6e6;
-}
-body .ui-tabs .ui-tabs-nav.ui-widget-header,
-.atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header,
-[class*="atk-swatch"] .atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header {
-  border-bottom: 1px solid #e6e6e6;
-}
-body .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default a:not([class*="atk-button"]):not([class*="atk-swatch"]),
-.atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default a:not([class*="atk-button"]):not([class*="atk-swatch"]),
-[class*="atk-swatch"] .atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default a:not([class*="atk-button"]):not([class*="atk-swatch"]) {
-  color: rgba(31, 42, 50, 0.7);
-}
-body .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
-.atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover,
-[class*="atk-swatch"] .atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default a:not([class*="atk-button"]):not([class*="atk-swatch"]):hover {
-  color: #1f2a32;
-}
-body .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default.ui-state-active,
-.atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default.ui-state-active,
-[class*="atk-swatch"] .atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default.ui-state-active {
-  background-color: #fff;
-  border-color: #e6e6e6;
-}
-body .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default.ui-state-active a:not([class*="atk-button"]):not([class*="atk-swatch"]),
-.atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default.ui-state-active a:not([class*="atk-button"]):not([class*="atk-swatch"]),
-[class*="atk-swatch"] .atk-swatch-default .ui-tabs .ui-tabs-nav.ui-widget-header .ui-state-default.ui-state-active a:not([class*="atk-button"]):not([class*="atk-swatch"]) {
-  color: #1f2a32;
-}
-body .ui-tabs .ui-tabs-panel.ui-widget-content,
-.atk-swatch-default .ui-tabs .ui-tabs-panel.ui-widget-content,
-[class*="atk-swatch"] .atk-swatch-default .ui-tabs .ui-tabs-panel.ui-widget-content {
-  border: 1px solid #e6e6e6;
-  border-top: none;
-}
-body .ui-accordion .ui-accordion-header.ui-state-active,
-.atk-swatch-default .ui-accordion .ui-accordion-header.ui-state-active,
-[class*="atk-swatch"] .atk-swatch-default .ui-accordion .ui-accordion-header.ui-state-active {
-  background-color: #fff;
-  border-color: #e6e6e6;
-  border-bottom-color: #fff;
-}
-body .ui-accordion .ui-accordion-content,
-.atk-swatch-default .ui-accordion .ui-accordion-content,
-[class*="atk-swatch"] .atk-swatch-default .ui-accordion .ui-accordion-content {
-  border-color: #e6e6e6;
-}
-body .ui-dialog,
-.atk-swatch-default .ui-dialog,
-[class*="atk-swatch"] .atk-swatch-default .ui-dialog {
+ [class*="atk-border"][class*="-overlay"],
+.atk-swatch-default [class*="atk-border"][class*="-overlay"],
+[class*="atk-swatch"] .atk-swatch-default [class*="atk-border"][class*="-overlay"],
+[class*="atk-border"][class*="-overlay"],
+.atk-swatch-default[class*="atk-border"][class*="-overlay"],
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-overlay"],
+ hr[class*="atk-border"][class*="-overlay"],
+.atk-swatch-default hr[class*="atk-border"][class*="-overlay"],
+[class*="atk-swatch"] .atk-swatch-default hr[class*="atk-border"][class*="-overlay"],
+[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before,
+.atk-swatch-default[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-swatch"] .atk-swatch-default[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before {
   border-color: #bfbfbf;
 }
-body .ui-dialog .ui-widget-header.ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close,
-.atk-swatch-default .ui-dialog .ui-widget-header.ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close,
-[class*="atk-swatch"] .atk-swatch-default .ui-dialog .ui-widget-header.ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close {
-  color: rgba(0, 0, 0, 0.2);
-}
-body .ui-dialog .ui-widget-header.ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close:hover,
-.atk-swatch-default .ui-dialog .ui-widget-header.ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close:hover,
-[class*="atk-swatch"] .atk-swatch-default .ui-dialog .ui-widget-header.ui-dialog-titlebar .ui-button.ui-dialog-titlebar-close:hover {
-  color: rgba(0, 0, 0, 0.3);
-}
-body .ui-dialog .ui-widget-header.ui-dialog-titlebar,
-.atk-swatch-default .ui-dialog .ui-widget-header.ui-dialog-titlebar,
-[class*="atk-swatch"] .atk-swatch-default .ui-dialog .ui-widget-header.ui-dialog-titlebar {
-  border-bottom: 1px solid #e6e6e6;
-}
-body .ui-dialog .ui-dialog-buttonset,
-.atk-swatch-default .ui-dialog .ui-dialog-buttonset,
-[class*="atk-swatch"] .atk-swatch-default .ui-dialog .ui-dialog-buttonset {
-  border-top: 1px solid #e6e6e6;
+.atk-swatch-default,
+[class*="atk-swatch"] .atk-swatch-default {
+  background-color: #fff;
 }
 .atk-swatch-default--text,
 h1.atk-swatch-default--text,
@@ -4532,80 +4431,60 @@ h6.atk-swatch-default--text {
 .atk-swatch-default--fill[class*="atk-popover"] .atk-popoverArrow:before {
   background-color: #fff;
 }
-.atk-swatch-ink,
-[class*="atk-swatch"] .atk-swatch-ink {
-  background-color: #1f2a32;
-  color: rgba(255, 255, 255, 0.7);
-}
-.atk-swatch-ink.atk-box,
-[class*="atk-swatch"] .atk-swatch-ink.atk-box {
+.atk-swatch-ink.atk-box {
   background-color: #1f2a32;
   border-color: #131a1f;
 }
 a.atk-swatch-ink[class*="atk-button"],
-a[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"],
 input.atk-swatch-ink[class*="atk-button"],
-input[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"],
 button.atk-swatch-ink[class*="atk-button"],
-button[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"],
 .atk-swatch-ink .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-ink .ui-state-default,
-.atk-swatch-ink .ui-widget-content .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-ink .ui-widget-content .ui-state-default {
+.atk-swatch-ink .ui-widget-content .ui-state-default {
   border-color: #080a0c;
 }
 a.atk-swatch-ink[class*="atk-button"],
-a[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"],
 input.atk-swatch-ink[class*="atk-button"],
-input[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"],
 button.atk-swatch-ink[class*="atk-button"],
-button[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"],
 .atk-swatch-ink .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-ink .ui-state-default,
-.atk-swatch-ink .ui-widget-content .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-ink .ui-widget-content .ui-state-default {
+.atk-swatch-ink .ui-widget-content .ui-state-default {
   color: #ffffff;
   background-color: #1f2a32;
 }
 a.atk-swatch-ink[class*="atk-button"]:hover,
-a[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"]:hover,
 input.atk-swatch-ink[class*="atk-button"]:hover,
-input[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"]:hover,
 button.atk-swatch-ink[class*="atk-button"]:hover,
-button[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"]:hover,
 .atk-swatch-ink .ui-state-default:hover,
-[class*="atk-swatch"] .atk-swatch-ink .ui-state-default:hover,
-.atk-swatch-ink .ui-widget-content .ui-state-default:hover,
-[class*="atk-swatch"] .atk-swatch-ink .ui-widget-content .ui-state-default:hover {
+.atk-swatch-ink .ui-widget-content .ui-state-default:hover {
   background-color: #171f25;
   border-color: #000000;
 }
-.atk-swatch-ink[class*="atk-button"][class*="-blank"],
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-button"][class*="-blank"] {
+.atk-swatch-ink[class*="atk-button"][class*="-blank"] {
   color: #1f2a32 !important;
 }
 .atk-swatch-ink[class*="atk-border"][class*="-outline"],
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-outline"],
-.atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"],
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"] {
+.atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"] {
   background-color: transparent;
   border-color: #1f2a32;
   color: #1f2a32;
 }
-.atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover,
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
+.atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
   color: #ffffff;
   background-color: #171f25;
   border-color: #000000;
 }
-.atk-swatch-ink[class*="atk-popover"].atk-box .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-popover"].atk-box .atk-popoverArrow:before {
+.atk-swatch-ink[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #1f2a32;
   border-color: #131a1f;
 }
-a.atk-swatch-ink[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover,
-a[class*="atk-swatch"] .atk-swatch-ink[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
+a.atk-swatch-ink[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
   background-color: #171f25;
+}
+.atk-swatch-ink [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
+  background-color: #1b252c;
+}
+.atk-swatch-ink,
+[class*="atk-swatch"] .atk-swatch-ink {
+  color: rgba(255, 255, 255, 0.7);
 }
 .atk-swatch-ink h1,
 [class*="atk-swatch"] .atk-swatch-ink h1,
@@ -4654,23 +4533,25 @@ a[class*="atk-swatch"] .atk-swatch-ink:not([class*="atk-button"]):hover {
 .atk-swatch-ink hr,
 [class*="atk-swatch"] .atk-swatch-ink hr,
 .atk-swatch-ink[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before {
+[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
+.atk-swatch-ink[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
+[class*="atk-swatch"] .atk-swatch-ink[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
   border-color: #131a1f;
 }
 .atk-swatch-ink [class*="atk-border"][class*="-disabled"],
 [class*="atk-swatch"] .atk-swatch-ink [class*="atk-border"][class*="-disabled"],
 .atk-swatch-ink[class*="atk-border"][class*="-disabled"],
 [class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-disabled"],
+.atk-swatch-ink hr[class*="atk-border"][class*="-disabled"],
+[class*="atk-swatch"] .atk-swatch-ink hr[class*="atk-border"][class*="-disabled"],
+.atk-swatch-ink[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
 .atk-swatch-ink [class*="atk-lister"] > *:not([class*="atk-border"]),
 [class*="atk-swatch"] .atk-swatch-ink [class*="atk-lister"] > *:not([class*="atk-border"]),
 .atk-swatch-ink [class*="atk-table"][class*="-separated"] tbody > tr > td,
 [class*="atk-swatch"] .atk-swatch-ink [class*="atk-table"][class*="-separated"] tbody > tr > td,
 .atk-swatch-ink [class*="atk-table"][class*="-separated"] thead > tr > th,
-[class*="atk-swatch"] .atk-swatch-ink [class*="atk-table"][class*="-separated"] thead > tr > th,
-.atk-swatch-ink hr[class*="-disabled"],
-[class*="atk-swatch"] .atk-swatch-ink hr[class*="-disabled"],
-.atk-swatch-ink[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before {
+[class*="atk-swatch"] .atk-swatch-ink [class*="atk-table"][class*="-separated"] thead > tr > th {
   border-color: #192229;
 }
 .atk-swatch-ink [class*="atk-border"][class*="-active"],
@@ -4697,21 +4578,6 @@ a[class*="atk-swatch"] .atk-swatch-ink:not([class*="atk-button"]):hover {
 [class*="atk-swatch"] .atk-swatch-ink[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before {
   border-color: #020203;
 }
-.atk-swatch-ink [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]),
-[class*="atk-swatch"] .atk-swatch-ink [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
-  background-color: #1b252c;
-}
-.atk-swatch-ink [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-ink [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-.atk-swatch-ink[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-ink[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
-  border-color: #131a1f;
-}
-.atk-swatch-ink[class*="icon"],
-[class*="atk-swatch"] .atk-swatch-ink[class*="icon"] {
-  background-color: none;
-  color: #1f2a32;
-}
 .atk-swatch-ink--text,
 h1.atk-swatch-ink--text,
 h2.atk-swatch-ink--text,
@@ -4734,80 +4600,60 @@ h6.atk-swatch-ink--text {
 .atk-swatch-ink--fill[class*="atk-popover"] .atk-popoverArrow:before {
   background-color: #1f2a32;
 }
-.atk-swatch-gray,
-[class*="atk-swatch"] .atk-swatch-gray {
-  background-color: #f0f2f3;
-  color: rgba(0, 0, 0, 0.7);
-}
-.atk-swatch-gray.atk-box,
-[class*="atk-swatch"] .atk-swatch-gray.atk-box {
+.atk-swatch-gray.atk-box {
   background-color: #f0f2f3;
   border-color: #dfe3e5;
 }
 a.atk-swatch-gray[class*="atk-button"],
-a[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"],
 input.atk-swatch-gray[class*="atk-button"],
-input[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"],
 button.atk-swatch-gray[class*="atk-button"],
-button[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"],
 .atk-swatch-gray .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-gray .ui-state-default,
-.atk-swatch-gray .ui-widget-content .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-gray .ui-widget-content .ui-state-default {
+.atk-swatch-gray .ui-widget-content .ui-state-default {
   border-color: #ced5d8;
 }
 a.atk-swatch-gray[class*="atk-button"],
-a[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"],
 input.atk-swatch-gray[class*="atk-button"],
-input[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"],
 button.atk-swatch-gray[class*="atk-button"],
-button[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"],
 .atk-swatch-gray .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-gray .ui-state-default,
-.atk-swatch-gray .ui-widget-content .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-gray .ui-widget-content .ui-state-default {
+.atk-swatch-gray .ui-widget-content .ui-state-default {
   color: #000000;
   background-color: #f0f2f3;
 }
 a.atk-swatch-gray[class*="atk-button"]:hover,
-a[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"]:hover,
 input.atk-swatch-gray[class*="atk-button"]:hover,
-input[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"]:hover,
 button.atk-swatch-gray[class*="atk-button"]:hover,
-button[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"]:hover,
 .atk-swatch-gray .ui-state-default:hover,
-[class*="atk-swatch"] .atk-swatch-gray .ui-state-default:hover,
-.atk-swatch-gray .ui-widget-content .ui-state-default:hover,
-[class*="atk-swatch"] .atk-swatch-gray .ui-widget-content .ui-state-default:hover {
+.atk-swatch-gray .ui-widget-content .ui-state-default:hover {
   background-color: #e5e8ea;
   border-color: #c3cbcf;
 }
-.atk-swatch-gray[class*="atk-button"][class*="-blank"],
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-button"][class*="-blank"] {
+.atk-swatch-gray[class*="atk-button"][class*="-blank"] {
   color: #f0f2f3 !important;
 }
 .atk-swatch-gray[class*="atk-border"][class*="-outline"],
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-outline"],
-.atk-swatch-gray[class*="atk-border"][class*="-outline"][class*="atk-button"],
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-outline"][class*="atk-button"] {
+.atk-swatch-gray[class*="atk-border"][class*="-outline"][class*="atk-button"] {
   background-color: transparent;
   border-color: #f0f2f3;
   color: #f0f2f3;
 }
-.atk-swatch-gray[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover,
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
+.atk-swatch-gray[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
   color: #000000;
   background-color: #e5e8ea;
   border-color: #c3cbcf;
 }
-.atk-swatch-gray[class*="atk-popover"].atk-box .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-popover"].atk-box .atk-popoverArrow:before {
+.atk-swatch-gray[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #f0f2f3;
   border-color: #dfe3e5;
 }
-a.atk-swatch-gray[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover,
-a[class*="atk-swatch"] .atk-swatch-gray[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
+a.atk-swatch-gray[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
   background-color: #e5e8ea;
+}
+.atk-swatch-gray [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
+  background-color: #eaedee;
+}
+.atk-swatch-gray,
+[class*="atk-swatch"] .atk-swatch-gray {
+  color: rgba(0, 0, 0, 0.7);
 }
 .atk-swatch-gray h1,
 [class*="atk-swatch"] .atk-swatch-gray h1,
@@ -4856,23 +4702,25 @@ a[class*="atk-swatch"] .atk-swatch-gray:not([class*="atk-button"]):hover {
 .atk-swatch-gray hr,
 [class*="atk-swatch"] .atk-swatch-gray hr,
 .atk-swatch-gray[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before {
+[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
+.atk-swatch-gray[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
+[class*="atk-swatch"] .atk-swatch-gray[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
   border-color: #dfe3e5;
 }
 .atk-swatch-gray [class*="atk-border"][class*="-disabled"],
 [class*="atk-swatch"] .atk-swatch-gray [class*="atk-border"][class*="-disabled"],
 .atk-swatch-gray[class*="atk-border"][class*="-disabled"],
 [class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-disabled"],
+.atk-swatch-gray hr[class*="atk-border"][class*="-disabled"],
+[class*="atk-swatch"] .atk-swatch-gray hr[class*="atk-border"][class*="-disabled"],
+.atk-swatch-gray[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
 .atk-swatch-gray [class*="atk-lister"] > *:not([class*="atk-border"]),
 [class*="atk-swatch"] .atk-swatch-gray [class*="atk-lister"] > *:not([class*="atk-border"]),
 .atk-swatch-gray [class*="atk-table"][class*="-separated"] tbody > tr > td,
 [class*="atk-swatch"] .atk-swatch-gray [class*="atk-table"][class*="-separated"] tbody > tr > td,
 .atk-swatch-gray [class*="atk-table"][class*="-separated"] thead > tr > th,
-[class*="atk-swatch"] .atk-swatch-gray [class*="atk-table"][class*="-separated"] thead > tr > th,
-.atk-swatch-gray hr[class*="-disabled"],
-[class*="atk-swatch"] .atk-swatch-gray hr[class*="-disabled"],
-.atk-swatch-gray[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before {
+[class*="atk-swatch"] .atk-swatch-gray [class*="atk-table"][class*="-separated"] thead > tr > th {
   border-color: #e7ebec;
 }
 .atk-swatch-gray [class*="atk-border"][class*="-active"],
@@ -4899,21 +4747,6 @@ a[class*="atk-swatch"] .atk-swatch-gray:not([class*="atk-button"]):hover {
 [class*="atk-swatch"] .atk-swatch-gray[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before {
   border-color: #c6cdd1;
 }
-.atk-swatch-gray [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]),
-[class*="atk-swatch"] .atk-swatch-gray [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
-  background-color: #eaedee;
-}
-.atk-swatch-gray [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-gray [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-.atk-swatch-gray[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-gray[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
-  border-color: #dfe3e5;
-}
-.atk-swatch-gray[class*="icon"],
-[class*="atk-swatch"] .atk-swatch-gray[class*="icon"] {
-  background-color: none;
-  color: #f0f2f3;
-}
 .atk-swatch-gray--text,
 h1.atk-swatch-gray--text,
 h2.atk-swatch-gray--text,
@@ -4936,80 +4769,60 @@ h6.atk-swatch-gray--text {
 .atk-swatch-gray--fill[class*="atk-popover"] .atk-popoverArrow:before {
   background-color: #f0f2f3;
 }
-.atk-swatch-blue,
-[class*="atk-swatch"] .atk-swatch-blue {
-  background-color: #509de6;
-  color: rgba(255, 255, 255, 0.7);
-}
-.atk-swatch-blue.atk-box,
-[class*="atk-swatch"] .atk-swatch-blue.atk-box {
+.atk-swatch-blue.atk-box {
   background-color: #509de6;
   border-color: #358ee2;
 }
 a.atk-swatch-blue[class*="atk-button"],
-a[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"],
 input.atk-swatch-blue[class*="atk-button"],
-input[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"],
 button.atk-swatch-blue[class*="atk-button"],
-button[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"],
 .atk-swatch-blue .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-blue .ui-state-default,
-.atk-swatch-blue .ui-widget-content .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-blue .ui-widget-content .ui-state-default {
+.atk-swatch-blue .ui-widget-content .ui-state-default {
   border-color: #1f7fda;
 }
 a.atk-swatch-blue[class*="atk-button"],
-a[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"],
 input.atk-swatch-blue[class*="atk-button"],
-input[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"],
 button.atk-swatch-blue[class*="atk-button"],
-button[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"],
 .atk-swatch-blue .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-blue .ui-state-default,
-.atk-swatch-blue .ui-widget-content .ui-state-default,
-[class*="atk-swatch"] .atk-swatch-blue .ui-widget-content .ui-state-default {
+.atk-swatch-blue .ui-widget-content .ui-state-default {
   color: #ffffff;
   background-color: #509de6;
 }
 a.atk-swatch-blue[class*="atk-button"]:hover,
-a[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"]:hover,
 input.atk-swatch-blue[class*="atk-button"]:hover,
-input[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"]:hover,
 button.atk-swatch-blue[class*="atk-button"]:hover,
-button[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"]:hover,
 .atk-swatch-blue .ui-state-default:hover,
-[class*="atk-swatch"] .atk-swatch-blue .ui-state-default:hover,
-.atk-swatch-blue .ui-widget-content .ui-state-default:hover,
-[class*="atk-swatch"] .atk-swatch-blue .ui-widget-content .ui-state-default:hover {
+.atk-swatch-blue .ui-widget-content .ui-state-default:hover {
   background-color: #3e93e3;
   border-color: #1d74c8;
 }
-.atk-swatch-blue[class*="atk-button"][class*="-blank"],
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-button"][class*="-blank"] {
+.atk-swatch-blue[class*="atk-button"][class*="-blank"] {
   color: #509de6 !important;
 }
 .atk-swatch-blue[class*="atk-border"][class*="-outline"],
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-outline"],
-.atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"],
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"] {
+.atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"] {
   background-color: transparent;
   border-color: #509de6;
   color: #509de6;
 }
-.atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover,
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
+.atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
   color: #ffffff;
   background-color: #3e93e3;
   border-color: #1d74c8;
 }
-.atk-swatch-blue[class*="atk-popover"].atk-box .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-popover"].atk-box .atk-popoverArrow:before {
+.atk-swatch-blue[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #509de6;
   border-color: #358ee2;
 }
-a.atk-swatch-blue[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover,
-a[class*="atk-swatch"] .atk-swatch-blue[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
+a.atk-swatch-blue[class*="atk-swatch"]:not([class*="atk-button"]):not([class*="--text"]):hover {
   background-color: #3e93e3;
+}
+.atk-swatch-blue [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
+  background-color: #4798e5;
+}
+.atk-swatch-blue,
+[class*="atk-swatch"] .atk-swatch-blue {
+  color: rgba(255, 255, 255, 0.7);
 }
 .atk-swatch-blue h1,
 [class*="atk-swatch"] .atk-swatch-blue h1,
@@ -5058,23 +4871,25 @@ a[class*="atk-swatch"] .atk-swatch-blue:not([class*="atk-button"]):hover {
 .atk-swatch-blue hr,
 [class*="atk-swatch"] .atk-swatch-blue hr,
 .atk-swatch-blue[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before {
+[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-static"][class*="atk-popover"] .atk-popoverArrow:before,
+.atk-swatch-blue[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
+[class*="atk-swatch"] .atk-swatch-blue[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
   border-color: #358ee2;
 }
 .atk-swatch-blue [class*="atk-border"][class*="-disabled"],
 [class*="atk-swatch"] .atk-swatch-blue [class*="atk-border"][class*="-disabled"],
 .atk-swatch-blue[class*="atk-border"][class*="-disabled"],
 [class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-disabled"],
+.atk-swatch-blue hr[class*="atk-border"][class*="-disabled"],
+[class*="atk-swatch"] .atk-swatch-blue hr[class*="atk-border"][class*="-disabled"],
+.atk-swatch-blue[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
+[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
 .atk-swatch-blue [class*="atk-lister"] > *:not([class*="atk-border"]),
 [class*="atk-swatch"] .atk-swatch-blue [class*="atk-lister"] > *:not([class*="atk-border"]),
 .atk-swatch-blue [class*="atk-table"][class*="-separated"] tbody > tr > td,
 [class*="atk-swatch"] .atk-swatch-blue [class*="atk-table"][class*="-separated"] tbody > tr > td,
 .atk-swatch-blue [class*="atk-table"][class*="-separated"] thead > tr > th,
-[class*="atk-swatch"] .atk-swatch-blue [class*="atk-table"][class*="-separated"] thead > tr > th,
-.atk-swatch-blue hr[class*="-disabled"],
-[class*="atk-swatch"] .atk-swatch-blue hr[class*="-disabled"],
-.atk-swatch-blue[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before,
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-disabled"][class*="atk-popover"] .atk-popoverArrow:before {
+[class*="atk-swatch"] .atk-swatch-blue [class*="atk-table"][class*="-separated"] thead > tr > th {
   border-color: #4396e4;
 }
 .atk-swatch-blue [class*="atk-border"][class*="-active"],
@@ -5100,21 +4915,6 @@ a[class*="atk-swatch"] .atk-swatch-blue:not([class*="atk-button"]):hover {
 .atk-swatch-blue[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before,
 [class*="atk-swatch"] .atk-swatch-blue[class*="atk-border"][class*="-overlay"][class*="atk-popover"] .atk-popoverArrow:before {
   border-color: #1d77cc;
-}
-.atk-swatch-blue [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]),
-[class*="atk-swatch"] .atk-swatch-blue [class*="atk-table"][class*="-zebra"] tbody tr:nth-child(odd) td:not([class*="atk-swatch"]) {
-  background-color: #4798e5;
-}
-.atk-swatch-blue [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-blue [class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-.atk-swatch-blue[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]),
-[class*="atk-swatch"] .atk-swatch-blue[class*="atk-menu"][class*="-separated"] > li + li:not([class*="atk-border"]) {
-  border-color: #358ee2;
-}
-.atk-swatch-blue[class*="icon"],
-[class*="atk-swatch"] .atk-swatch-blue[class*="icon"] {
-  background-color: none;
-  color: #509de6;
 }
 .atk-swatch-blue--text,
 h1.atk-swatch-blue--text,
