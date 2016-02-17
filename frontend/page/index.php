@@ -20,7 +20,7 @@ class page_index extends Page
             $snippet = $m[1];
         }else $embed = false;
         $m = $this->add('Model_Widget')->tryLoadBy('name_url',$snippet);
-        //if(!$m->loaded())$this->app->redirect('/');
+        if(!$m->loaded())$this->app->redirect('/');
 
         $this->title = $m['name'];
 
