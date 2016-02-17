@@ -4252,14 +4252,14 @@ button[class*="atk-button"]:hover,
 }
 [class*="atk-border"][class*="-outline"],
 [class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #fff;
-  color: #fff;
+  color: #fff !important;
 }
 [class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #000000;
-  background-color: #f5f5f5;
-  border-color: #c2c2c2;
+  color: #000000 !important;
+  background-color: #f5f5f5 !important;
+  border-color: #f5f5f5;
 }
 [class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #fff;
@@ -4463,14 +4463,14 @@ button.atk-swatch-ink[class*="atk-button"]:hover,
 }
 .atk-swatch-ink[class*="atk-border"][class*="-outline"],
 .atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #1f2a32;
-  color: #1f2a32;
+  color: #1f2a32 !important;
 }
 .atk-swatch-ink[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #171f25;
-  border-color: #000000;
+  color: #ffffff !important;
+  background-color: #171f25 !important;
+  border-color: #171f25;
 }
 .atk-swatch-ink[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #1f2a32;
@@ -4632,14 +4632,14 @@ button.atk-swatch-red[class*="atk-button"]:hover,
 }
 .atk-swatch-red[class*="atk-border"][class*="-outline"],
 .atk-swatch-red[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #fa635a;
-  color: #fa635a;
+  color: #fa635a !important;
 }
 .atk-swatch-red[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #f95046;
-  border-color: #f8180b;
+  color: #ffffff !important;
+  background-color: #f95046 !important;
+  border-color: #f95046;
 }
 .atk-swatch-red[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #fa635a;
@@ -4801,14 +4801,14 @@ button.atk-swatch-orange[class*="atk-button"]:hover,
 }
 .atk-swatch-orange[class*="atk-border"][class*="-outline"],
 .atk-swatch-orange[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #f8a633;
-  color: #f8a633;
+  color: #f8a633 !important;
 }
 .atk-swatch-orange[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #f79d1f;
-  border-color: #d27e07;
+  color: #ffffff !important;
+  background-color: #f79d1f !important;
+  border-color: #f79d1f;
 }
 .atk-swatch-orange[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #f8a633;
@@ -4970,14 +4970,14 @@ button.atk-swatch-yellow[class*="atk-button"]:hover,
 }
 .atk-swatch-yellow[class*="atk-border"][class*="-outline"],
 .atk-swatch-yellow[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #f4cf32;
-  color: #f4cf32;
+  color: #f4cf32 !important;
 }
 .atk-swatch-yellow[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #f3ca1f;
-  border-color: #caa50b;
+  color: #ffffff !important;
+  background-color: #f3ca1f !important;
+  border-color: #f3ca1f;
 }
 .atk-swatch-yellow[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #f4cf32;
@@ -5139,14 +5139,14 @@ button.atk-swatch-green[class*="atk-button"]:hover,
 }
 .atk-swatch-green[class*="atk-border"][class*="-outline"],
 .atk-swatch-green[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #6ccb4e;
-  color: #6ccb4e;
+  color: #6ccb4e !important;
 }
 .atk-swatch-green[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #5fc63e;
-  border-color: #479a2d;
+  color: #ffffff !important;
+  background-color: #5fc63e !important;
+  border-color: #5fc63e;
 }
 .atk-swatch-green[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #6ccb4e;
@@ -5308,14 +5308,14 @@ button.atk-swatch-blue[class*="atk-button"]:hover,
 }
 .atk-swatch-blue[class*="atk-border"][class*="-outline"],
 .atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #509de6;
-  color: #509de6;
+  color: #509de6 !important;
 }
 .atk-swatch-blue[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #3e93e3;
-  border-color: #1d74c8;
+  color: #ffffff !important;
+  background-color: #3e93e3 !important;
+  border-color: #3e93e3;
 }
 .atk-swatch-blue[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #509de6;
@@ -5477,14 +5477,14 @@ button.atk-swatch-violet[class*="atk-button"]:hover,
 }
 .atk-swatch-violet[class*="atk-border"][class*="-outline"],
 .atk-swatch-violet[class*="atk-border"][class*="-outline"][class*="atk-button"] {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #7573d9;
-  color: #7573d9;
+  color: #7573d9 !important;
 }
 .atk-swatch-violet[class*="atk-border"][class*="-outline"][class*="atk-button"]:hover {
-  color: #ffffff;
-  background-color: #6563d5;
-  border-color: #3835c5;
+  color: #ffffff !important;
+  background-color: #6563d5 !important;
+  border-color: #6563d5;
 }
 .atk-swatch-violet[class*="atk-popover"].atk-box .atk-popoverArrow:before {
   background-color: #7573d9;
