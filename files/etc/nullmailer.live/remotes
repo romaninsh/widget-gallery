@@ -1,1 +1,1 @@
-smtp.mandrillapp.com smtp --port=587 --starttls --user=romans@linkedfinance.com --pass=4NfhCfR79AIpzkpabakHDQ
+smtp.mandrillapp.com smtp --port=587 --starttls --user=* --pass=changed..
